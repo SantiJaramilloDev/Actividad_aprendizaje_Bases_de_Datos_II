@@ -12,6 +12,9 @@ Requisitos
 
 Estructura del repositorio
 -------------------------
+- Actividad_1/
+  - Creación de modelo estrella desde la base `jardineria`.
+
 - Actividad_2/
   - script_creacion_db_staging.sql  -> DDL para crear la base `staging_jardineria` y las tablas `stg_*` (recomendado para crear el entorno de staging desde cero).
   - script_consultas_staging.sql    -> Sentencias INSERT ... SELECT que realizan el upsert (ON DUPLICATE KEY UPDATE) desde `jardineria` a `staging_jardineria`.
